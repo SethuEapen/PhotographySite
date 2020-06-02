@@ -2489,7 +2489,7 @@ h3 {
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
-  background-position:top;
+  background-position:center;
   padding: 220px 0;
   background-repeat: no-repeat;
   position: relative;
