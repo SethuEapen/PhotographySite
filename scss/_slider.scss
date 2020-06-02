@@ -1,9 +1,22 @@
 .slider_bg_1{
-    background-image: url(../img/banner/banner1.png);
+    background-image: url("../img/home slider/People.jpg");
 }
 .slider_bg_2{
-    background-image: url(../img/banner/banner1.png);
+    background-image: url("../img/home slider/Places.jpg")
 }
+
+.slider_bg_3{
+    background-image: url("../img/home slider/Sports.jpg")
+}
+
+.slider_bg_4{
+    background-image: url("../img/home slider/Astro.jpg")
+}
+
+.slider_bg_5{
+    background-image: url("../img/home slider/Other.jpg")
+}
+
 .slider_area{
     .single_slider{
         height: 900px;
