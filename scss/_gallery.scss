@@ -1,0 +1,78 @@
+.gallery_area{
+    padding-top: 100px;
+    // padding-bottom: 100px;
+    @media #{$mobile-device}{
+        padding-top: 50px;
+        // padding-bottom: 50px;
+    }
+    @media #{$tablet-device}{
+        padding-top: 70px;
+        // padding-bottom:70px;
+    }
+    .section_title p {
+        padding: 0 10px;
+        @media #{$mobile_device} {
+         padding: 0;   
+        }
+    }
+    .single_photography{
+        position: relative;
+        overflow: hidden;
+        .thumb{
+            img{
+                width: 101%;
+                @include transition(.5s);
+                @include transform(scale(1));
+            }
+        }
+        .hover{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.08+0,1+100 */
+            background: -moz-linear-gradient(top,  rgba(0,0,0,0.08) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  rgba(0,0,0,0.08) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  rgba(0,0,0,0.08) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+            display: table;
+            width: 100%;
+            height: 100%;
+            @include  transform(translateY(50%));
+            @include  transition(.5s);
+            opacity: 0;
+            visibility: hidden;
+            .hover_inner {
+                display: table-cell;
+                vertical-align: bottom;
+                padding-bottom: 48px;
+                padding-left: 48px;
+                h3{
+                    color: #FFFFFF;
+                    font-weight: 300;
+                    font-size: 24px;
+                    margin-bottom: 4px;
+                }
+                span{
+                    font-weight: 300;
+                    font-size: 13px;
+                    font-style: italic;
+                    color: #D5D5D5;
+                }
+              }
+        }
+        &:hover{
+            .hover{
+                @include  transform(translateY(0%));
+                opacity: 1;
+                visibility: visible;
+            }
+            .thumb{
+                img{
+                    @include transform(scale(1.2));
+                }
+            }
+        }
+    }
+}

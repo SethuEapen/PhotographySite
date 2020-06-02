@@ -1,0 +1,179 @@
+.photography_skill_area{
+    padding: 90px 0 96px 0;
+    .section_title{
+        h3{
+
+        }
+        p{
+            font-size: 20px;
+            color: #707070;
+            line-height: 32px;
+            margin-bottom: 0;
+            font-weight: 400;
+            margin-bottom: 23px;
+            padding: 0 23px;
+            @media #{$mobile_device} {
+                padding: 0;
+            }
+            @media #{$tablet_device} {
+                padding: 0;
+            }
+        }
+        .singnature_thumb{
+
+        }
+    }
+}
+
+.wild_photography{
+    background: #F5FBFF;
+    .wildlife_photo{
+        img{
+            width: 100%;
+        }
+    }
+    .section_title{
+        padding-left: 113px;
+        @media #{$mobile_device} {
+            padding-left: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        @media #{$tablet_device} {
+            padding-left: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        h3{
+
+        }
+        p{
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 21px;
+            margin-bottom: 37px;
+        }
+        a{
+
+        }
+    }
+}
+.baby_gallery_wrap{
+    .single_gallery{
+        height: 530px;
+        @media #{$mobile_device} {
+            height: auto;
+        }
+        .thumb {
+            width: 100%;
+            height: 100%;
+            padding: 1px;
+            display: block;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .single_gallery.large_img {
+    
+        width: 39.5%;
+        @media #{$mobile_device} {
+            width: 100%;
+        }
+        @media #{$tablet_device} {
+            width: 50%;
+        }
+    
+    }
+    .single_gallery.mid_img {
+    
+        width: 35.7%;
+        @media #{$mobile_device} {
+            width: 100%;
+        }
+        @media #{$tablet_device} {
+            width: 50%;
+        }
+    
+    }
+    .single_gallery.small_img {
+        width: 24.8%;
+        @media #{$mobile_device} {
+            width: 100%;
+        }
+        @media #{$tablet_device} {
+            width: 50%;
+        }
+    }
+}
+
+
+.next_prev_post{
+    .border_bottom{
+        padding-bottom: 60px;
+        padding-top: 60px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid #F5F5F5;
+    }
+    .post_lisk{
+        @media #{$mobile_device}{
+            display: block;
+            text-align: center !important;
+        }
+        a{
+            font-size: 13px;
+            font-weight: 300;
+            color: #727272;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            color: #2C2C2C;
+            margin-bottom: 0;
+            @media #{$tablet_device} {
+                font-size: 15px;
+            }
+        }
+    }
+    .socical_button{
+        text-align: center;
+        ul{
+            li{
+                display: inline-block;
+                // text-align: center;
+                @media #{$mobile_device} {
+                    display: block;
+                    margin: 5px 0;
+                }
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    display: inline-block;
+                    color: #fff;
+                    background: #3B5997;
+                    @include border-radius(4px);
+                    padding: 11px 28px;
+                    margin: 0 4px;
+                    @media #{$mobile_device}{
+                        display: block;
+                        text-align: center !important;
+                    }
+                    @media #{$tablet_device}{
+                        padding: 11px 12px;
+                    }
+                    @media #{$tablet_device}{
+                        padding: 11px 12px ;
+                        margin: 0 1px;
+                    }
+                }
+                &:nth-child(2) a{
+                    background: #1DA1F2;
+                }
+                &:nth-child(3) a{
+                    background: #B21D23;
+                }
+            }
+        }
+    }
+}

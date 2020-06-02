@@ -1,0 +1,101 @@
+.slider_bg_1{
+    background-image: url(../img/banner/banner1.png);
+}
+.slider_bg_2{
+    background-image: url(../img/banner/banner1.png);
+}
+.slider_area{
+    .single_slider{
+        height: 900px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        @media #{$mobile_device} {
+            height: 100vh;
+        }
+        @media #{$tablet_device} {
+            height: 620px;
+        }
+        .phone_thumb {
+            position: relative;
+            top: 110px;
+            @media #{$mobile_device}{
+                top: 60px;
+            }
+            img{
+                @media #{$mobile_device}{
+                    width: 100%;
+                }
+                @media #{$tablet_device}{
+                    width: 100%;
+                }
+                @media #{$mid_device}{
+                    width: 100%;
+                }
+            }
+        }
+        .slider_text{
+            @media #{$mobile_device}{
+                padding-top: 100px;
+            }
+            h3{
+                color: #FFF;
+                font-family: $font1;
+                font-size: 50px;
+                text-transform: capitalize;
+                font-weight: 300;
+                line-height: 82px;
+                margin-bottom: 20px;
+                br{
+                    @media #{$mobile_device}{
+                        display: none;
+                    }
+                    @media #{$tablet_device}{
+                        display: none;
+                    }
+                    @media #{$mid_device}{
+                        display: none;
+                    }
+                }
+             span{
+                 font-weight: 700;
+             }
+             @media #{$mobile_device} {
+               font-size: 30px;
+            //    letter-spacing: 3px;
+                line-height: 35px;
+            }
+             @media #{$tablet_device} {
+               font-size: 30px;
+               line-height: 35px;
+
+            }
+             @media #{$mid_device} {
+               font-size: 45px;
+               letter-spacing: 3px;
+               line-height: 55px;
+
+            }
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+                color: #FFFFFF;
+                margin-bottom: 48px;
+                margin-top: 16px;
+             @media #{$mid_device} {
+                font-size: 16px;
+             }
+             @media #{$mobile_device} {
+                font-size: 16px;
+             }
+            }
+            .video_service_btn> a{
+                // margin-right: 15px;
+                @media #{$mobile_device} {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    } 
+}
