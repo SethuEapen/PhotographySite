@@ -2128,7 +2128,7 @@ h3 {
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
@@ -2138,7 +2138,7 @@ h3 {
 
 /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 /* line 8, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
@@ -3211,7 +3211,7 @@ h3 {
 
 /* line 133, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact.scss */
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 0 0 100px;
 }
 
 @media (max-width: 991px) {

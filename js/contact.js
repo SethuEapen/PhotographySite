@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Missing name",
+                    minlength: "Name must at least two characters"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Missing subject",
+                    minlength: "Subject must be at least four characters"
                 },
                 number: {
                     required: "come on, you have a number, don't you?",
                     minlength: "your Number must consist of at least 5 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Missing email"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Missing message",
+                    minlength: "Message must be at least twenty characters"
                 }
             },
             submitHandler: function(form) {
@@ -66,14 +66,14 @@ $(document).ready(function(){
                             $(this).find('label').css('cursor','default');
                             $('#success').fadeIn()
                             $('.modal').modal('hide');
-		                	$('#success').modal('show');
+							$('#success').modal('show');
                         })
                     },
                     error: function() {
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $('#error').fadeIn()
                             $('.modal').modal('hide');
-		                	$('#error').modal('show');
+							$('#error').modal('show');
                         })
                     }
                 })
