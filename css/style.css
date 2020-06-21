@@ -2485,6 +2485,9 @@ h3 {
   background-image: url("../img/about/banner.jpg");
 }
 
+.breadcam_bg_7 {
+  background-image: url("../img/places/mt hood.jpg");
+}
 
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
@@ -6212,5 +6215,26 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
+
+.highlights {
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+	object-fit: cover;
+	max-width: 100%;
+	height: 25%;
+}
+
 
 /*# sourceMappingURL=style.css.map */
